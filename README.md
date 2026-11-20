@@ -42,6 +42,10 @@ This code is written in **C#**.
 
 If you only use this code for image matching, simply run: E:\文档\影像匹配\特征对准确率方法改进\LADM-LAFM\LADM-LAFM\bin\x64\Debug\LADM-LAFM.exe
 
+<img width="1141" height="555" alt="image" src="https://github.com/user-attachments/assets/63e7f67f-f7c5-49e7-a0d3-c15434864854" />
+
+In the "data" folder, there are case data. The excel data includes the feature points detected by Image 1, the initial matching result of the HOWP method, and the actual transformation matrices between the images.
+Please paste the feature points detected by Image 1 and the matching pairs into the program, input the image file, and click the run button to obtain the results.
 
 ### Option 2: Modify the code
 
@@ -64,6 +68,7 @@ I wish you all a happy life and successful scientific research! 🎉
 ## 📝 Cite
 
 If you find this repository useful in your research, please consider giving a star ⭐ and a citation.
+
 Xue, L., Sheng, Y., Yang, S., & Lu, X. (2026). A locally adaptive semi-dense matching method for multimodal remote sensing images. International Journal of Remote Sensing, 1–28. https://doi.org/10.1080/01431161.2026.2760580
 
 
