@@ -1,4 +1,4 @@
-# LADM-LAFM A Locally Adaptive Semi-dense Matching Method for Multimodal Remote Sensing Images
+# LADM-LAFM: A Locally Adaptive Semi-dense Matching Method for Multimodal Remote Sensing Images
 
 **代码已发布在本仓库的 tag 中，请切换到对应 tag 查看和下载。https://github.com/yue115161/LADM/releases/tag/v1.0**
 
@@ -9,30 +9,30 @@
 
 This repository provides the implementation of the RMSS algorithm, as described in the paper:
 
-**Multimodal Remote Sensing Image Matching Considering Structural Saliency**
+**A Locally Adaptive Semi-dense Matching Method for Multimodal Remote Sensing Images**
 
-Li Xue, Yehua Sheng, Shuwen Yang, Xiangqiang Min, and Xiu Lu
+Li Xue, Yehua Sheng, Shuwen Yang,  and Xiu Lu
 
 Experimental comparisons between RMSS and seven state-of-the-art algorithms, using six types of multimodal remote sensing images, demonstrate that RMSS is:
 
-- ✅ Simple to implement
-- ✅ Highly robust to rotation in multimodal images
-- ✅ Able to substantially improve the number and localization accuracy of matching points
-- ✅ Able to improve the correct matching rate
+- ✅ improving matching precision
+- ✅ yielding a large number of matching points
+- ✅ enhancing their spatial distribution quality
+
 
 ## ✨ Contributions
 
 The main contributions of this work are outlined as follows:
 
-1. **Structural Saliency Representation.** We propose a novel method for expressing structural saliency. Unlike phase congruency-based approaches, we represent structural information through the relative dispersion of neighborhood information and structural orientation, which enables stable and efficient representation of structural intensity and directional information in images. This provides resilience to NRD and directional reversal in multimodal remote sensing imagery to a certain extent.
+1) We propose a locally adaptive matching point detection method that effectively integrates statistical and geometric consistency to remove false matching points.
 
-2. **Structural Saliency Descriptor.** Feature points are extracted using a structural intensity map, and the GLOH framework is optimized to construct a structural saliency descriptor vector, which enhances the rotational invariance of the descriptor.
+2) We design a reverse pruning strategy that re-evaluates the medium-confidence point set based on the high-confidence point set, further improving algorithmic precision.
 
-3. **Coarse-to-Fine Matching Strategy.** A coarse-to-fine matching strategy is designed to increase the number and accuracy of matched pairs, and the FSC algorithm is optimized to improve the stability of mismatch pruning.
+3) We design a locally adaptive semi-dense matching point expansion strategy that significantly increases the number of matching points according to local geometric features.
 
-4. **Two-Stage Subpixel Refinement.** A two-stage subpixel refinement strategy that combines Gaussian fitting and similarity metrics is designed to further improve the number of matched points and localization accuracy.
+Experiments on multimodal images demonstrate that LADM exhibits strong robustness, high precision, and a large number of matching points.
 
-Experimental results demonstrate that the proposed method exhibits high robustness to NRD and image rotation, and can significantly increase the number of matching points and the matching accuracy.
+
 
 ## 🚀 Run
 
