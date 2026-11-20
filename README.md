@@ -1,5 +1,7 @@
 # LADM-LAFM: A Locally Adaptive Semi-dense Matching Method for Multimodal Remote Sensing Images
 
+Paper webpage: https://www.tandfonline.com/eprint/YDBRQYMDVXY7KY9MCICK/full?target=10.1080/01431161.2026.2760580
+
 **代码已发布在本仓库的 tag 中，请切换到对应 tag 查看和下载。https://github.com/yue115161/LADM/releases/tag/v1.0**
 
 
