@@ -40,7 +40,7 @@ This code is written in **C#**.
 
 ### Option 1: Just run it (image matching only)
 
-If you only use this code for image matching, simply run:
+If you only use this code for image matching, simply run: E:\文档\影像匹配\特征对准确率方法改进\LADM-LAFM\LADM-LAFM\bin\x64\Debug\LADM-LAFM.exe
 
 
 ### Option 2: Modify the code
@@ -49,13 +49,11 @@ If you need to change the code, please use the **Visual Studio** platform.
 
 Developed with **Visual Studio 2019**.
 
-The code implements the RMSS algorithm (paper: *Multimodal Remote Sensing Image Matching Considering Structural Saliency*).
 
 ## 📊 Result
 
-![](reslut-pair1.png)
+<img width="812" height="645" alt="image" src="https://github.com/user-attachments/assets/4098a960-972e-49c2-a1b9-fb4c3d44668d" />
 
-（如果 `reslut-pair1` 是图片文件，请把上面的文件名改成实际路径；如果是文件夹，可以删掉这一行或改成文字说明。）
 
 ## 📌 Notes
 
